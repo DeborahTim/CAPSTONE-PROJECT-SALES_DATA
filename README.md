@@ -34,7 +34,7 @@ products: Items sold in the store
 The primary source of Data used here is the Sales Data provided by the Sales department of the company. The Data given is table having an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice image
 
 #### Tools used
-- Microsoft Excel for Data cleaning transformation and preliminary analysis 
+- Microsoft Excel for Data cleaning transformation and preliminary analysis [Download Here](http://www.Microsoft.com)
 - Structured Query Language(SQL) for Data exctraction and for quering of the 
 - Microsoft PowerBI for visualization and Dashboard creation
 - Github for portfolio building
