@@ -7,18 +7,18 @@ This is where I document my first my project while learning data analysis with i
 #### Data Sources
 ##### The primary source of Data used here is the Sales Data provided by the Sales department of the company. The Data given is table having an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice image
 #### Tools used
-1.Microsoft Excel for Data cleaning transformation and preliminary analysis 
-2.Structured Query Language(SQL) for Data exctraction and for quering of the 
-3.Microsoft PowerBI for visualization and Dashboard creation
-4.Github for portfolio building
+- Microsoft Excel for Data cleaning transformation and preliminary analysis 
+- Structured Query Language(SQL) for Data exctraction and for quering of the 
+- Microsoft PowerBI for visualization and Dashboard creation
+- Github for portfolio building
 #### Data cleaning and preparations
-1.Data Cleaning: I removed duplicates and standardized date formats.
+1. Data Cleaning: I removed duplicates and standardized date formats.
 
-2.Pivot Tables: I created pivot tables to analyze sales by product, region, and period,Total Revenue By Product
+2. Pivot Tables: I created pivot tables to analyze sales by product, region, and period,Total Revenue By Product
 
-3.Visualization:I used charts to visualize The most Popular Product [Download here]image
+3. Visualization:I used charts to visualize The most Popular Product [Download here]image
 
-4.Formulas:I Applied Excel functions such as SUMIF, AVERAGE, and VLOOKUP for aggregating data and extracting insights. I also Applied Strcuctured Query Language codes like
+4. Formulas:I Applied Excel functions such as SUMIF, AVERAGE, and VLOOKUP for aggregating data and extracting insights. I also Applied Strcuctured Query Language codes like
 
 #### Exploratory Data Analysis
 This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
