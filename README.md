@@ -1,6 +1,17 @@
 # SALES DATA
 ## PROJECT TITLE: Sales Data Analysis
+
 [Project overview](#project-overview)
+[Data Description](#Data-Description)
+[Dashboard Review](#Dashboard-Review)
+[Data Source](#Data-Source)
+[Tool Used](#Tool-Used)
+[Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
+[Exploratory Data Analysis](#Exploratory-Data-Analysis)
+[Insight Generation](#Insight-Generation)
+[SQL Query](#SQL Query)
+
+
 ### Project Overview
 This project seeks to evaluate and improve the organization’s sales strategies by systematically analyzing sales data. Through the tracking and analysis of key performance indicators (KPIs), we aim to understand patterns, identify strengths and weaknesses, and refine our sales operations. By leveraging the provided data, I will extract insights that will drive targeted strategies for increased revenue, enhanced customer engagement, and optimized resource management. The Sales Performance Analysis will be an invaluable initiative, equipping our sales teams with insights and tools to improve efficiency and drive sustainable growth.
 
@@ -21,7 +32,7 @@ This dataset includes the following Columns:
 - Quantity
 - Unit Price
   
-### DASH BOARD REVIEW:
+### DASHDashBOARD REVIEW:
 1. Customer Id
 products: Items sold in the store
 2. Region: The other regional branches of the store ( North, South, East West)
@@ -37,7 +48,8 @@ The primary source of Data used here is the Sales Data provided by the Sales dep
 - Structured Query Language(SQL) for Data exctraction and for query [Download Here](https://dev.mysql.com/downloads/mysql/)
 - Microsoft PowerBI for visualization and Dashboard creation [Download Here](https://powerbi.microsoft.com/desktop/)
 - Github for portfolio building [Download Here](https://desktop.github.com/)
-  
+
+  SQL Query
 ### Data cleaning and preparations
 1. Data Cleaning: I removed duplicates and standardized date formats.
 
@@ -75,7 +87,7 @@ North Region: With total sales of $1,950,000, the North region contributes 18.42
 
 West Region: The West region shows steady competitive activity, closely aligning with the North's performance. It records $1,512,500 in total sales, accounting for 14.29% of total revenue, and suggests a stable purchasing trend in this area.
 
-### Query for the sales data
+###  SQL Query 
 ```
 SELECT *FROM [dbo].[LITA Capstone Dataset_SalesData]
 ```
