@@ -2,14 +2,22 @@
 ## PROJECT TITLE: Sales Data Analysis
 
 [Project overview](#project-overview)
+
 [Data Description](#Data-Description)
+
 [Dashboard Review](#Dashboard-Review)
+
 [Data Source](#Data-Source)
+
 [Tool Used](#Tool-Used)
+
 [Data Cleaning and Preparation](#Data-Cleaning-and-Preparation)
+
 [Exploratory Data Analysis](#Exploratory-Data-Analysis)
+
 [Insight Generation](#Insight-Generation)
-[SQL Query](#SQL Query)
+
+[SQL Query](#SQL-Query)
 
 
 ### Project Overview
