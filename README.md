@@ -7,28 +7,32 @@ This is where I document my first my project while learning data analysis with i
 
 Building on the data and capstone project document previously shared, I will analyze the sales performance of a retail store, using an exploratory approach to uncover key insights such as:
 
-1. Top Selling Products
-2. Regional Performances
-3. Monthly Sales Trend and By telling a compelling story and building an interactive dashboard Power Bi report: To gather insight, Highlight findings And making business decisions.
-DATA DESCRIPTION:
+- Top Selling Products
+- Regional Performances
+- Monthly Sales Trend and By telling a compelling story and building an interactive dashboard Power Bi report: To gather insight, Highlight findings And making business decisions.
+  
+##### DATA DESCRIPTION:
 This dataset includes the following Columns:
 
-Order Number
-Customer Id
-products
-region
-Order Date
-Quantity
-Unit Price
-DASH BOARD REVIEW:
-Customer Id
+- Order Number
+- Customer Id
+- Products
+- Region
+- Order Date
+- Quantity
+- Unit Price
+  
+#####DASH BOARD REVIEW:
+1. Customer Id
 products: Items sold in the store
-region: The other regional branches of the store ( North, South, East West)
-Order Date: Date order was palced
-Quantity: The number of units of the product ordered in each transaction
-Unit Price: The aquisition cost per unit of the product
+2. Region: The other regional branches of the store ( North, South, East West)
+3. Order Date: Date order was palced
+4. Quantity: The number of units of the product ordered in each transaction
+5. Unit Price: The aquisition cost per unit of the product
+6. 
 #### Data Sources
 ##### The primary source of Data used here is the Sales Data provided by the Sales department of the company. The Data given is table having an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice image
+
 #### Tools used
 - Microsoft Excel for Data cleaning transformation and preliminary analysis 
 - Structured Query Language(SQL) for Data exctraction and for quering of the 
