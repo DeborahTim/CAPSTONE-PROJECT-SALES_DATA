@@ -20,47 +20,7 @@ This is where I document my first my project while learning data analysis with i
 
 4.Formulas:I Applied Excel functions such as SUMIF, AVERAGE, and VLOOKUP for aggregating data and extracting insights. I also Applied Strcuctured Query Language codes like
 
-SELECT *FROM [dbo].[LITA Capstone Dataset_SalesData]
-
-SELECT Product, 
-   SUM([Revenue]) AS TotalRevenue
-FROM [LITA Capstone Dataset_SalesData]
-GROUP BY Product;
-
-SELECT 
-DATENAME(MONTH, OrderDate) AS SalesMonth, 
-SUM([Quantity_Sold]) AS TotalSales
-FROM 
-[dbo].[LITA Capstone Dataset_SalesData]
-WHERE 
-YEAR(OrderDate) = YEAR(GETDATE()) 
-GROUP BY 
-DATENAME(MONTH, OrderDate), MONTH(OrderDate)
-ORDER BY 
-MONTH(OrderDate);  
-
-SELECT TOP 5 [CustomerName] , 
-   SUM([Revenue]) AS TotalPurchaseAmount
-FROM [dbo].[LITA Capstone Dataset_CustomerData]
-GROUP BY [CustomerName]
-ORDER BY TotalPurchaseAmount DESC;
-
-SELECT Region, 
-   SUM([Quantity_Sold]) AS TotalSales, 
-   ROUND((SUM([Quantity_Sold]) * 100 / (SELECT SUM([Quantity_Sold])
-   FROM [dbo].[LITA Capstone Dataset_SalesData])), 2) AS SalesPercentage
-FROM [dbo].[LITA Capstone Dataset_SalesData]
-GROUP BY Region;
-
-SELECT Product
-FROM [dbo].[LITA Capstone Dataset_SalesData]
-WHERE Product NOT IN (
-SELECT DISTINCT Product
-FROM [dbo].[LITA Capstone Dataset_SalesData]
-WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE()) 
-)
-GROUP BY Product;
-Exploratory Data Analysis
+#### Exploratory Data Analysis
 This involves exploring the the Data to answer some questions which are needful for effective analysis. Questions such as
 
 What is the total sales for each product category.
