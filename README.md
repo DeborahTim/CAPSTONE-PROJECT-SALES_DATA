@@ -3,7 +3,30 @@ This is where I document my first my project while learning data analysis with i
 ## LITA_CAPSTONE_PROJECT
 ### PROJECT TITLE: Unique Hub Sales Performance Analysis
 #### Project Overview
-##### This Project aims to evaluate and enhance the sales strategies of the organization by systematically analyzing sales data. The project involves tracking, measuring, and interpreting key performance indicators (KPIs) to understand trends, identify high- and low-performing areas, and optimize sales operations. By leveraging on the data given, I plan to gain insights that will inform targeted strategies for revenue growth, better customer engagement, and resource allocation.The Sales Performance Analysis is an essential initiative to empower our sales teams with insights and tools to achieve higher efficiency and sustainable growth.
+##### This project seeks to evaluate and improve the organization’s sales strategies by systematically analyzing sales data. Through the tracking and analysis of key performance indicators (KPIs), we aim to understand patterns, identify strengths and weaknesses, and refine our sales operations. By leveraging the provided data, I will extract insights that will drive targeted strategies for increased revenue, enhanced customer engagement, and optimized resource management. The Sales Performance Analysis will be an invaluable initiative, equipping our sales teams with insights and tools to improve efficiency and drive sustainable growth.
+
+Building on the data and capstone project document previously shared, I will analyze the sales performance of a retail store, using an exploratory approach to uncover key insights such as:
+
+1. Top Selling Products
+2. Regional Performances
+3. Monthly Sales Trend and By telling a compelling story and building an interactive dashboard Power Bi report: To gather insight, Highlight findings And making business decisions.
+DATA DESCRIPTION:
+This dataset includes the following Columns:
+
+Order Number
+Customer Id
+products
+region
+Order Date
+Quantity
+Unit Price
+DASH BOARD REVIEW:
+Customer Id
+products: Items sold in the store
+region: The other regional branches of the store ( North, South, East West)
+Order Date: Date order was palced
+Quantity: The number of units of the product ordered in each transaction
+Unit Price: The aquisition cost per unit of the product
 #### Data Sources
 ##### The primary source of Data used here is the Sales Data provided by the Sales department of the company. The Data given is table having an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice image
 #### Tools used
