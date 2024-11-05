@@ -75,13 +75,17 @@ North Region: With total sales of $1,950,000, the North region contributes 18.42
 West Region: The West region shows steady competitive activity, closely aligning with the North's performance. It records $1,512,500 in total sales, accounting for 14.29% of total revenue, and suggests a stable purchasing trend in this area.
 
 ### Query for the sales data
+```
 SELECT *FROM [dbo].[LITA Capstone Dataset_SalesData]
-
+```
+```
 SELECT Product, 
    SUM([Revenue]) AS TotalRevenue
 FROM [LITA Capstone Dataset_SalesData]
 GROUP BY Product;
+```
 
+```
 SELECT 
 DATENAME(MONTH, OrderDate) AS SalesMonth, 
 SUM([Quantity_Sold]) AS TotalSales
@@ -93,20 +97,26 @@ GROUP BY
 DATENAME(MONTH, OrderDate), MONTH(OrderDate)
 ORDER BY 
 MONTH(OrderDate);  
+```
 
+```
 SELECT TOP 5 [CustomerName] , 
    SUM([Revenue]) AS TotalPurchaseAmount
 FROM [dbo].[LITA Capstone Dataset_CustomerData]
 GROUP BY [CustomerName]
 ORDER BY TotalPurchaseAmount DESC;
+```
 
+```
 SELECT Region, 
    SUM([Quantity_Sold]) AS TotalSales, 
    ROUND((SUM([Quantity_Sold]) * 100 / (SELECT SUM([Quantity_Sold])
    FROM [dbo].[LITA Capstone Dataset_SalesData])), 2) AS SalesPercentage
 FROM [dbo].[LITA Capstone Dataset_SalesData]
 GROUP BY Region;
+```
 
+```
 SELECT Product
 FROM [dbo].[LITA Capstone Dataset_SalesData]
 WHERE Product NOT IN (
@@ -115,6 +125,7 @@ FROM [dbo].[LITA Capstone Dataset_SalesData]
 WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE()) 
 )
 GROUP BY Product;
+```
 
 
 
