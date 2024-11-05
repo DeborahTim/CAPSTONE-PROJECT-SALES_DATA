@@ -1,6 +1,6 @@
 # LITA_CLASS_DOCUMENTATION
 This is where I document my first my project while learning data analysis with incubator hub
-## LITA_CAPSTONE_PROJECT
+## LITA_CAPSTONE_PROJECT 1
 ### PROJECT TITLE: Unique Hub Sales Performance Analysis
 #### Project Overview
 This project seeks to evaluate and improve the organization’s sales strategies by systematically analyzing sales data. Through the tracking and analysis of key performance indicators (KPIs), we aim to understand patterns, identify strengths and weaknesses, and refine our sales operations. By leveraging the provided data, I will extract insights that will drive targeted strategies for increased revenue, enhanced customer engagement, and optimized resource management. The Sales Performance Analysis will be an invaluable initiative, equipping our sales teams with insights and tools to improve efficiency and drive sustainable growth.
@@ -118,33 +118,6 @@ WHERE OrderDate >= DATEADD(QUARTER, -1, GETDATE())
 )
 GROUP BY Product;
 
-### Query for customer Data 
-
-1. Select  region, count(distinct Customerid) as total_customers 
-from [dbo]
-Group by region;
-2. Select top 1 subscriptiontype, count(distinct customerid) as total_customers
-From [dbo]
-Group by subscriptiontype 
-Order by total_customers desc;
-3. Select customerid
-From [dbo]
-Where datadiff(month, subscriptionstart, subscriptionend) <= 6;
-4. Select avg(datediff(day, subscriptionstart, subscriptionend)) as avg_subscription_duration
-From [dbo]
-5. Select customerid
-From [dbo]
-Where datediff(month, subscriptionstart  subscriptionend) > 12;
-6. Select subscriptiontype,
-Sum(revenue) as total_revenue 
-From [dbo]
-Group by subscriptiontype;
-7. Select top 3 region,
-Count(*) as subscriptionend_count
-From [dbo]
-Where subscriptionend is null
-Group by region
-Order by subscriptionend_count desc;
 
 
 
