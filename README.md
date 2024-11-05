@@ -1,5 +1,6 @@
 # SALES DATA
-## PROJECT TITLE: Unique Hub Sales Performance Analysis
+## PROJECT TITLE: Sales Data Analysis
+[Project overview](#project-overview)
 ### Project Overview
 This project seeks to evaluate and improve the organization’s sales strategies by systematically analyzing sales data. Through the tracking and analysis of key performance indicators (KPIs), we aim to understand patterns, identify strengths and weaknesses, and refine our sales operations. By leveraging the provided data, I will extract insights that will drive targeted strategies for increased revenue, enhanced customer engagement, and optimized resource management. The Sales Performance Analysis will be an invaluable initiative, equipping our sales teams with insights and tools to improve efficiency and drive sustainable growth.
 
