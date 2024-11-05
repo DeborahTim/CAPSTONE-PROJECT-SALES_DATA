@@ -37,7 +37,7 @@ The primary source of Data used here is the Sales Data provided by the Sales dep
 - Microsoft Excel for Data cleaning transformation and preliminary analysis [Download Here](http://www.Microsoft.com)
 - Structured Query Language(SQL) for Data exctraction and for query [Download Here](https://dev.mysql.com/downloads/mysql/)
 - Microsoft PowerBI for visualization and Dashboard creation [Download Here](https://powerbi.microsoft.com/desktop/)
-- Github for portfolio building
+- Github for portfolio building [Download Here](https://desktop.github.com/)
   
 #### Data cleaning and preparations
 1. Data Cleaning: I removed duplicates and standardized date formats.
