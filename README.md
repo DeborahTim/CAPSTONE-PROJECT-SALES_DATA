@@ -1,8 +1,6 @@
-# LITA_CLASS_DOCUMENTATION
-This is where I document my first my project while learning data analysis with incubator hub
-## LITA_CAPSTONE_PROJECT 1
-### PROJECT TITLE: Unique Hub Sales Performance Analysis
-#### Project Overview
+# LITA_CAPSTONE_PROJECT 1
+## PROJECT TITLE: Unique Hub Sales Performance Analysis
+### Project Overview
 This project seeks to evaluate and improve the organization’s sales strategies by systematically analyzing sales data. Through the tracking and analysis of key performance indicators (KPIs), we aim to understand patterns, identify strengths and weaknesses, and refine our sales operations. By leveraging the provided data, I will extract insights that will drive targeted strategies for increased revenue, enhanced customer engagement, and optimized resource management. The Sales Performance Analysis will be an invaluable initiative, equipping our sales teams with insights and tools to improve efficiency and drive sustainable growth.
 
 Building on the data and capstone project document previously shared, I will analyze the sales performance of a retail store, using an exploratory approach to uncover key insights such as:
@@ -11,7 +9,7 @@ Building on the data and capstone project document previously shared, I will ana
 - Regional Performances
 - Monthly Sales Trend and By telling a compelling story and building an interactive dashboard.
   
-#### DATA DESCRIPTION:
+### DATA DESCRIPTION:
 This dataset includes the following Columns:
 
 - Order Number
@@ -22,7 +20,7 @@ This dataset includes the following Columns:
 - Quantity
 - Unit Price
   
-#### DASH BOARD REVIEW:
+### DASH BOARD REVIEW:
 1. Customer Id
 products: Items sold in the store
 2. Region: The other regional branches of the store ( North, South, East West)
@@ -30,23 +28,23 @@ products: Items sold in the store
 4. Quantity: The number of units of the product ordered in each transaction
 5. Unit Price: The aquisition cost per unit of the product
    
-#### Data Sources
+### Data Sources
 The primary source of Data used here is the Sales Data provided by the Sales department of the company. The Data given is table having an array of columns like OrderID, Customer Id, Product, Region, OrderDate, Quantity Sold and UnitPrice image
 
-#### Tools used
+### Tools used
 - Microsoft Excel for Data cleaning transformation and preliminary analysis [Download Here](http://www.Microsoft.com)
 - Structured Query Language(SQL) for Data exctraction and for query [Download Here](https://dev.mysql.com/downloads/mysql/)
 - Microsoft PowerBI for visualization and Dashboard creation [Download Here](https://powerbi.microsoft.com/desktop/)
 - Github for portfolio building [Download Here](https://desktop.github.com/)
   
-#### Data cleaning and preparations
+### Data cleaning and preparations
 1. Data Cleaning: I removed duplicates and standardized date formats.
 
 2. Pivot Tables: I created pivot tables to analyze sales by product, region, and period,Total Revenue By Product
 
 3. Visualization:I used charts to visualize The most Popular
 
-#### Exploratory Data Analysis
+### Exploratory Data Analysis
 This analysis will involve a deep exploration of the data to answer key questions that are essential for effective decision-making. These include:
 
 Determining the total sales for each product category
@@ -65,7 +63,7 @@ Calculating each region’s percentage contribution to total sales
 
 Identifying products with no sales in the last quarter
 
-#### Insight Generation 
+### Insight Generation 
 Regional Sales (Revenue) Insights
 
 South Region: Leading in total sales, the South region brings in $4,675,000, indicating both high transaction volumes and larger average sales values, positioning it as the top-performing region.
